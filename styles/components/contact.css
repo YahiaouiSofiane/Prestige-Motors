@@ -1,0 +1,40 @@
+.contact__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact {
+    padding: 2rem 0;
+}
+.contact svg {
+    color: var(--primary-white);
+    width: 40px;
+    margin-bottom: 0.5rem;
+}
+.contact__paragraph {
+    color: var(--primary-white);
+    font-weight: 400;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+    width: 30ch;
+    line-height: calc(1em + 0.5rem);
+}
+.contact__info {
+    color: var(--primary-grey);
+    font-weight: 400;
+    font-size: 0.875rem;
+    text-decoration: underline;
+}
+/* md */
+@media (min-width: 768px) {
+    .contact svg {
+        width: 50px;
+    }
+}
+/* xl */
+@media (min-width: 1280px) {
+    .contact__paragraph {
+        font-size: 1rem;
+    }
+}

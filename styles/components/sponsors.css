@@ -1,0 +1,68 @@
+.sponsors__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mercedes {
+    width: 60px;
+}
+.audi {
+    width: 40px;
+}
+.porche, .volkswagen {
+    width: 80px;
+}
+
+/* xs */
+@media (min-width: 475px) {
+    .mercedes {
+        width: 70px;
+    }
+    .audi {
+        width: 50px;
+    }
+    .porche, .volkswagen {
+        width: 90px;
+    }
+}
+
+/* md */
+@media (min-width: 768px) {
+    .mercedes {
+        width: 80px;
+    }
+    .audi {
+        width: 60px;
+    }
+    .porche, .volkswagen {
+        width: 100px;
+    }
+}
+
+
+/* lg */
+@media (min-width: 1024px) {
+    .mercedes {
+        width: 100px;
+    }
+    .audi {
+        width: 80px;
+    }
+    .porche, .volkswagen {
+        width: 120px;
+    }
+}
+
+
+/* xl */
+@media (min-width: 1280px) {
+    .mercedes {
+        width: 130px;
+    }
+    .audi {
+        width: 100px;
+    }
+    .porche, .volkswagen {
+        width: 160px;
+    }
+}
